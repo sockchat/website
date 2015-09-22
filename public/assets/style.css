@@ -1,0 +1,138 @@
+/* sock chat */
+
+@charset "utf-8";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 15px/20px Raleway, sans-serif;
+    background: #343434;
+    color: #E5E5E5;
+}
+
+a {
+    color: #66F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66F;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #F66;
+    text-decoration: underline;
+}
+
+h4 {
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.clear {
+    float: none !important;
+    clear: both !important;
+}
+
+.header {
+    text-align: center;
+    display: block;
+    background: #1A1A1A;
+}
+
+.header > .head {
+    font: 6em/1.3em Lato,sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #E5E5E5;
+    transition: color .5s;
+}
+
+.header > .head:hover {
+    color: #5E5E5E;
+}
+
+.header > .sub {
+    padding: 0px 0px 15px;
+}
+
+.menu {
+    background: linear-gradient(180deg, #1A1A1A, #343434) #1A1A1A;
+    text-align: center;
+}
+
+.menu > a {
+    color: inherit;
+    min-width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    transition: text-shadow .3s;
+}
+
+.menu > a:hover {
+    text-shadow: 0px 0px .5em #F1F1F1;
+}
+
+.copyright {
+    font: 13px/15px Droid Sans, sans-serif;
+    border-top: 1px solid #1A1A1A;
+    padding: 10px 0px;
+    margin: 10px auto 0px;
+    display: block;
+    max-width: 768px;
+    min-width: 256px;
+    text-align: center;
+}
+
+.container {
+    max-width: 768px;
+    min-width: 256px;
+    margin: 20px auto;
+}
+
+.section {
+    padding: 5px;
+}
+
+.section > .clearfix, .section > .clearfix > div {
+    padding: 1px 6px;
+}
+
+.section > div, .section > h3 {
+    margin: 0px 0px 0px 10px;
+}
+
+.section > h2 {
+    padding: 0px 0px 5px;
+    margin: 0px 0px 5px;
+    border-bottom: 1px solid #888;
+}
+
+.section > .clearfix > div {
+    float: left;
+}
+
+.aro-logo {
+    display: block;
+    background: url("aroltd.png") no-repeat scroll left top / cover transparent;
+    height: 75px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.socks {
+    display: inline-block;
+    background: url("socks.png") no-repeat scroll left top / cover transparent;
+    height: 67px;
+    width: 67px;
+    position: relative;
+    bottom: -24px;
+}
